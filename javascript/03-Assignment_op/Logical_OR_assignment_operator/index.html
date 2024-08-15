@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica OR assignment operator</title>
+    <script src="script.js"></Script>
+</head>
+<body>
+    <h3>Logica OR assignment operator</h3>
+    <p>
+         In JavaScript, the logical OR (||) operator returns the first truthy value found in an expression. If both values are falsy, it returns the last value.
+         <br>
+         The OR assignment operator (|=) is a short-hand for assignment that assigns the result of the logical OR operation to a variable.
+         <br>
+         The code snippet below demonstrates the usage of logical OR assignment operator.
+<br>
+<pre>
+
+<b>Syntax -></b>
+
+x ||= y
+or 
+x = x || y
+*/
+
+
+<b>Code -></b>
+
+let name = {
+    first_name : "Ritesh",
+    last_name : "",
+};
+
+console.log(name.first_name);   
+
+name.first_name ||= "Divyanka";
+
+console.log(name.first_name);  //this can't change first name because it has truthy value 
+
+console.log(name.last_name);
+
+name.last_name ||= "Pagare";
+
+console.log(name.last_name);  //this changes last name to pagare because it has falsy value 
+
+<b>output -></b> 
+
+Ritesh script.js.12
+Ritesh script.js:16 
+       script.js:18
+Pagare script.js:22
+
+// if ther is no value present already then only it assign y value to x.
+// if aleady any value is present then it gives original value of x. 
+</pre>    
+</p>
+</body>
+</html>
