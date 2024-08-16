@@ -9,7 +9,7 @@
 
 if * and / are in same line then executes left to right, it's same for + -
 
-
+*/
 example ->
 1 + 1 * 3
 its does 
@@ -30,10 +30,10 @@ float ->
 20.95 + 15.98 (2nd)
 = 36.93
 
-for %
-if we want 10% of the number then 
+// for %
+// if we want 10% of the number then 
 
-what is 10%
+// what is 10%
 10 / 100 = 0.1
 
 number * 0.1 = 10% of the number
@@ -42,7 +42,7 @@ number * 0.1 = 10% of the number
 = 3.693 (1st)
 
 
-*/
+
 
 /*
 Math.round(2.8) //case sencitive 
@@ -59,9 +59,9 @@ item price in doller -> 20.95 + 7.99
 tax -> 10% 
 
 total price = ?
+*/
 
 = ((2095 + 799) * 0.1) / 100
 = Math.round(2894 * 0.1) / 100
 = 2.89
 
-*/
