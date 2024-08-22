@@ -6,4 +6,4 @@
 - Normalization
 - Recursion
 - Manual Testing 
-- Auto Testing 
+- Automated Testing 
