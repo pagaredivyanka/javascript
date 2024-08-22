@@ -52,9 +52,9 @@
 
 
 // setTimeout(); this function take 2 parameters  (1. function, 2. time)
-    // Asynchronous code 
-    // It's not waiting for the function to complete before moving on to the next line
-    // It's a non-blocking function
+// Asynchronous code 
+// It's not waiting for the function to complete before moving on to the next line
+// It's a non-blocking function
 
     setTimeout(function() {
         // inside the function -> this is synchronous code
@@ -87,6 +87,15 @@
         console.log(value);  // print one by one
     });
 
+// different types of writing functions 
+/*
+    1. regular function
+    2. arrow function 
+        a. const funName = () => { return };
+        b. const oneParam = param => { };
+        c. const oneLine = () => 2 + 3;
+        
+*/ 
     const regularFunction = function(param, param) {
         console.log('hello3');
         return 5;
@@ -102,11 +111,13 @@
     // arrow function 2
     const oneParam = param => {
         console.log(param + 1);
-    }
+    };
 
+    // arrow function 3
     const oneLine = () => 2 + 3;
 
 
+    // object
     const obj2 = {
         method: () => {
             
@@ -115,7 +126,7 @@
 
         }
     };
-
+//------------------------------------------------------------------------------
 
 console.log([1, -3, 5].filter((value, index) => {
     /*
