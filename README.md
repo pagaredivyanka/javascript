@@ -9,13 +9,11 @@
 - Manual Testing 
 - Automated Testing
 
-## Frontend and Styling
+## Frontend and Styling and Backend 
 - HTML
 - CSS
-
-## Backend 
 - javascript
 
 ## Testing
-- Jasmine
+- Jasmine framework - unit testing purpose
 
