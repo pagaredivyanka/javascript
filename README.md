@@ -15,5 +15,5 @@
 - javascript
 
 ## Testing
-- Jasmine framework - unit testing purpose
+- Jasmine framework - for unit testing
 
