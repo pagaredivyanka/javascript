@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Quantity</title>
+</head>
+<body>
+    <button onclick="
+        console.log(`Cart Quantity: ${cartQuantity}`
+        );
+    ">Show Quantity</button>
+    <button onclick="
+// this 3 lines do the same work
+//      cartQuantity = cartQuantity + 1;  
+//      cartQuantity += 1;
+        cartQuantity++;
+        console.log(`Cart Quantity: ${cartQuantity}`
+        );
+    ">Add to Cart</button>
+    <button onclick="
+//        cartQuantity = cartQuantity + 2;
+        cartQuantity += 2;
+        console.log(`Cart Quantity: ${cartQuantity}`
+        );
+    ">+2</button>
+    <button onclick="
+//        cartQuantity = cartQuantity + 3;
+        cartQuantity += 3;
+        console.log(`Cart Quantity: ${cartQuantity}`
+        );
+    ">+3</button>
+    <button onclick="
+        cartQuantity = 0;
+        console.log('Cart was reset.');
+    ">Reset Cart</button>
+    <script>
+        /* 
+        camelCase = cartQunatity (Used in JS), 
+        PascalCase = CartQuantity, 
+        kebab-case = cart-quantity (not applicable in JavaScript, used in HTML and CSS),
+        snake_case = cart_quantity (other lang)
+        */
+        let cartQuantity = 0;  
+    </script>
+</body>
+</html>
